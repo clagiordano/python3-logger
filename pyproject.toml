@@ -9,7 +9,8 @@ packages = [
     { include = "clagiordano" }
 ]
 include = [
-    { path = "tests", format = "sdist" }
+    { path = "tests", format = "sdist" },
+    { path = "docs", format = "sdist" },
 ]
 readme = "README.md"
 repository = "https://github.com/clagiordano/python3-logger"

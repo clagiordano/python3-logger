@@ -56,11 +56,11 @@ logger.set_ansi(False)
 
 #### Sample ANSI output (default)
 
-![Sample ANSI output](docs/clilogger_ansi.png)
+![Sample ANSI output](https://raw.githubusercontent.com/clagiordano/python3-logger/main/docs/clilogger_ansi.png)
 
 #### Sample ANSI OFF output
 
-![Sample ANSI OFF output](docs/clilogger_ansi_off.png)
+![Sample ANSI OFF output](https://raw.githubusercontent.com/clagiordano/python3-logger/main/docs/clilogger_ansi_off.png)
 
 ## Contributing
 

@@ -24,6 +24,11 @@ TODO
 
 ## Logging components
 
+| Type | Status | Description |
+|---|---|---|
+| CLILogger | Available | It outputs logging messsages to STDOUT |
+| FileLogger | Planned | It will outputs logging messages directly to file |
+
 ### CLI Logger
 
 This logging components allow you to outputs logging information and raises and exception from critical level and above.
@@ -56,7 +61,6 @@ logger.set_ansi(False)
 #### Sample ANSI OFF output
 
 ![Sample ANSI OFF output](docs/clilogger_ansi_off.png)
-
 
 ## Contributing
 

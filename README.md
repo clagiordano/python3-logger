@@ -26,7 +26,7 @@ TODO
 
 | Type | Status | Description |
 |---|---|---|
-| CLILogger | Available | It outputs logging messsages to STDOUT |
+| [CLILogger](### CLI Logger) | Available | It outputs logging messsages to STDOUT |
 | FileLogger | Planned | It will outputs logging messages directly to file |
 
 ### CLI Logger

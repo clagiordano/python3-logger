@@ -16,7 +16,7 @@ class CLILogger(AbstractLogger):
     __DEBUG     = '\033[1;30mDEBUG\033[0m'
 
     def __format(self, badge, message):
-        output = f"[{badge:>18s}]: {message}\n"
+        output = f"[{badge}]: {message}"
 
         if self.__ansi is False:
             ansi_escape = re.compile(r'\x1B(?:[@-Z\\-_]|\[[0-?]*[ -/]*[@-~])')

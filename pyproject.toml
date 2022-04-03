@@ -1,10 +1,13 @@
 [tool.poetry]
-name = "python3_logger"
+name = "clagiordano.python3-logger"
 version = "1.0.0"
 description = "Library for logging facility"
 authors = ["Claudio Giordano <claudio.giordano@autistici.org>"]
 license = "LGPL-3.0-or-later"
 keywords = ["clagiordano", "logger", "cli", "tool", "utility"]
+packages = [
+    { include = "clagiordano" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.5"

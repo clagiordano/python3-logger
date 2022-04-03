@@ -1,6 +1,7 @@
 import re
+from clagiordano.python3_logger.AbstractLogger import AbstractLogger
 
-class CLILogger():
+class CLILogger(AbstractLogger):
     """
     Command Line logger with optional colors
     """

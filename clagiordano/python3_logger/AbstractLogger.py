@@ -6,49 +6,49 @@ class AbstractLogger(ABC):
     and their mandatory methods
     """
     @abstractmethod
-    def emergency(self, message):
+    def emergency(self, message) -> None:
         """
         It logs an emergency message
         """
 
     @abstractmethod
-    def alert(self, message):
+    def alert(self, message) -> None:
         """
         It logs an alert message
         """
 
     @abstractmethod
-    def critical(self, message):
+    def critical(self, message) -> None:
         """
         It logs a critical message
         """
 
     @abstractmethod
-    def error(self, message):
+    def error(self, message) -> None:
         """
         It logs an error message
         """
 
     @abstractmethod
-    def warning(self, message):
+    def warning(self, message) -> None:
         """
         It logs a warning message
         """
 
     @abstractmethod
-    def notice(self, message):
+    def notice(self, message) -> None:
         """
         It logs a notice message
         """
 
     @abstractmethod
-    def info(self, message):
+    def info(self, message) -> None:
         """
         It logs an info message
         """
 
     @abstractmethod
-    def debug(self, message):
+    def debug(self, message) -> None:
         """
         It logs a debug message
         """

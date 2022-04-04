@@ -12,7 +12,7 @@ class TestCLILogger:
         """
         version
         """
-        assert __version__ == '0.1.0'
+        assert __version__ == '1.1.0'
 
     def test_ansi_emergency(self):
         """
